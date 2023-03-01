@@ -5,19 +5,19 @@
 
     .principal {
         display: grid;
-        grid-template-columns: repeat(2, auto);
+        grid-template-columns: repeat(5, auto);
         grid-template-rows: repeat(10, auto);
         gap: 0;
         margin:50px;
         padding: 20px;
     }
-    
+
     .titulo-garupa {
         margin-top: 20px;
     }
 
     .imagem {
-        grid-area: 1/1/4/3;
+        grid-area: 1/1/4/6;
         border-radius: 10px 10px 0 0;
     }
 
@@ -28,7 +28,7 @@
     }
 
     .login {
-        grid-area: 4/1/11/3;
+        grid-area: 4/1/11/6;
         border-radius: 0 0 10px 10px;
     }
 }
