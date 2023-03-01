@@ -1,0 +1,179 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.principal {
+    display: grid;
+    grid-template-columns: repeat(8, auto);
+    grid-template-rows: repeat(10, auto);
+    gap: 5px;
+    max-width: 800px;
+    min-width: 300px;
+    margin-top: 8px;
+}
+
+.items {
+    border-radius: 8px;
+    padding: 5px;
+}
+
+.imagem {
+    grid-area: 1/1/11/3;
+    background-image: linear-gradient(to right, rgb(235, 97, 54), rgb(255, 119, 0));
+}
+
+.titulo-garupa {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    padding: 5px;
+    color: rgb(255, 255, 255);
+}
+
+.imagem img {
+    margin-top: 30px;
+}
+
+.info {
+    margin: auto;
+    width: 250px;
+    padding: 8px;
+    background-color: rgb(7, 102, 10);
+    color: rgb(255, 255, 255);
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.info ul li {
+    margin-top: 20px;
+    list-style-position: inside;
+    text-align: justify;
+}
+
+.titulo-login {
+    font-size: 20px;
+}
+
+.sub-titulo {
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 40px;
+}
+
+
+.login {
+    font-family: 'Poppins', sans-serif;
+    background-image: linear-gradient(to right, rgb(235, 97, 54), rgb(255, 119, 0));
+    color: rgb(255, 255, 255);
+    grid-area: 1/3/11/9;
+    padding: 20px;
+}
+
+.fas {
+    font-size: 20px;
+    margin-top: 45px;
+    margin-right: 10px;
+}
+
+.inputs {
+    border-radius: 5px;
+    padding: 8px;
+    width: 240px;
+    margin-top: 25px;
+}
+
+.senha {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.lembrar-senha {
+   font-size: 10px;
+   font-weight: 600;
+}
+
+.label {
+    margin-left: 5px;
+}
+
+.esqueceu-senha {
+    text-decoration: none;
+    font-size: 10px;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    margin-left: 83px;
+}
+
+.esqueceu-senha:hover {
+    text-decoration: underline;
+}
+
+.botao {
+    background-color: rgb(7, 102, 10);
+    color: rgb(255, 255, 255);
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 800;
+    display: block;
+    margin: auto;
+    width: 230px;
+    padding: 8px;
+    margin-top: 15px;
+    border-radius: 5px;
+}
+
+.botao:hover {
+    background-color: rgb(32, 128, 44);
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.cadastro {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 12px;
+}
+
+.cadastro a {
+    margin-left: 10px;
+    font-weight: 900;
+    text-decoration: none;
+    color: rgb(4, 69, 4);
+}
+
+.cadastro a:hover {
+    text-decoration: underline;
+    color: rgb(255, 255, 255);
+}
+
+.outros-emails {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.fab {
+    font-size: 25px;
+    margin-top: 15px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.fa-google {
+    font-size: 22px;
+}
+
+.fa-facebook {
+    color: rgb(0, 55, 255);
+}
+
+.fa-apple {
+    color: black;
+}
