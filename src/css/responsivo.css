@@ -1,6 +1,6 @@
 @media (max-width: 665px) {
     body {
-        background-color: rgb(255, 255, 255);
+        background-image: linear-gradient(to right, rgb(235, 97, 54), rgb(235, 97, 54), rgb(255, 119, 0), rgb(255, 119, 0));
     }
 
     .principal {
@@ -8,8 +8,12 @@
         grid-template-columns: repeat(5, auto);
         grid-template-rows: repeat(10, auto);
         gap: 0;
-        margin:50px;
         padding: 20px;
+    }
+
+    .items {
+        border: none;
+        border-radius: 0;
     }
 
     .titulo-garupa {
@@ -18,17 +22,39 @@
 
     .imagem {
         grid-area: 1/1/4/6;
-        border-radius: 10px 10px 0 0;
     }
 
     .info {
-        max-width: 0;
-        max-height: 0;
-        background-color: rgba(255, 68, 0, 0);
+        background-color: rgb(7, 102, 10);
+        max-width: 300px;
+        max-height: 195px;
+        font-size: 10px;
+        padding: 5px;
+    }
+
+    .info ul li {
+        margin-bottom: 10px;
     }
 
     .login {
         grid-area: 4/1/11/6;
-        border-radius: 0 0 10px 10px;
+    }
+
+    .login .titulo-login {
+        text-align: center;
+    }
+
+    .inputs {
+        width: 200px;
+    }
+
+    .botao {
+        width: 180px;
+    }
+
+    .senha {
+        display: flex;
+        justify-content: space-between;
+        font-size: 8px;
     }
 }
