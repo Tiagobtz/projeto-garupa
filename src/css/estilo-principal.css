@@ -79,7 +79,7 @@ body {
 .fas {
     font-size: 20px;
     margin-top: 45px;
-    margin-right: 10px;
+    margin-right: 5px;
 }
 
 .inputs {
@@ -144,9 +144,9 @@ body {
 
 .cadastro a {
     margin-left: 10px;
-    font-weight: 900;
+    font-weight: 700;
     text-decoration: none;
-    color: rgb(4, 69, 4);
+    color: rgb(255, 255, 255);
 }
 
 .cadastro a:hover {
@@ -165,16 +165,9 @@ body {
     margin-top: 15px;
     padding: 10px;
     cursor: pointer;
+    color: #ffff;
 }
 
 .fa-google {
     font-size: 22px;
-}
-
-.fa-facebook {
-    color: rgb(0, 55, 255);
-}
-
-.fa-apple {
-    color: black;
 }

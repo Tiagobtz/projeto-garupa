@@ -9,11 +9,13 @@
         grid-template-rows: repeat(10, auto);
         gap: 0;
         padding: 20px;
+        margin: 0%;
     }
 
     .items {
         border: none;
         border-radius: 0;
+        outline: none;
     }
 
     .titulo-garupa {
@@ -45,11 +47,11 @@
     }
 
     .inputs {
-        width: 200px;
+        width: 270px;
     }
 
     .botao {
-        width: 180px;
+        width: 200px;
     }
 
     .senha {
@@ -57,4 +59,5 @@
         justify-content: space-between;
         font-size: 8px;
     }
+
 }
