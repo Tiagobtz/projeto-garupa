@@ -12,70 +12,55 @@
     <link rel="stylesheet" href="src/css/responsivo.css">
 </head>
 <body>
-    <section class="principal">
-        <section class="imagem items">
-            <h1 class="titulo-garupa">Bem-vindo <br> ao Garupa</h1> 
-            
-            <img src="src/images/moto-taxi.png" alt="Moto táxi">
+    <section id="container">
+        <section id="principal">
+            <header id="cabecalho">
+                <h1>Garupa</h1>
+            </header>
+            <div id="imagem">
+                <img src="src/images/moto-taxi.png" alt="Ilustração de um moto-táxi">
+            </div>
 
-            <div class="info">
-                
+            <div id="info">
                 <ul>
                     <li>Encontre as centrais de moto-táxi mais próximas de você, e tudo isso bem na palma da sua mão;</li>
                     <li>Obtenha vantagens com os cupons de desconto e receba também cartões de fidelidade digitais;</li>
                     <li>Não esqueça de ativar as notificações para poder aproveitar todas as nossas vantagens.</li>
                 </ul>
-
             </div>
         </section>
 
-        <section class="login items">
-            
-            <h2 class="titulo-login">Login</h2>
-
+        <form id="formulario">
+            <h2>Nova conta</h2>
             <hr>
-
-            <h3 class="sub-titulo">Entre na sua conta,<br>
-            suba em nossa garupa e Let's go!
-            </h3>
-            
-            <div class="dados">
-                <i class="fas fa-user"></i><input class="inputs" type="email" name="email" id="email" placeholder="Usuário ou e-mail">
-
-                <br>
-                
-                <i class="fas fa-lock"></i><input class="inputs" type="password" name="senha" id="senha" placeholder="Digite sua senha">
-
-                <br>
-                
-                <div class="senha">
-                    <input type="checkbox" name="lembrar-senha" class="lembrar-senha">
-                    <label class="lembrar-senha label" for="lembrar senha">Lembrar senha</label>
-                    <a class="esqueceu-senha" href="#">Esqueceu a senha?</a>
-                </div>
-
-                <br>
-
-                <input id="botao" class="botao" type="submit" value="Entrar">
-
-                <div class="cadastro">
-                    Não tem uma conta? <a href="#">Cadastre-se</a>
-                </div>
-
-                <div class="outros-emails">
-                    Entrar com
-
-                    <br>
-
-                    <i class="fab fa-google" title="Entrar com G-mail"></i>
-                    <i class="fab fa-facebook" title="Entrar com Facebook"></i>
-                    <i class="fab fa-apple" title="Entrar com ID Apple"></i>
-                </div>
+            <div class="form-content">
+                <label for="usuario">Usuário</label>
+                <input type="text" id="usuario" placeholder="Digite seu nome de usuário">
+                <a>Aqui vai a mensagem de erro</a>
             </div>
-            
-        </section>
+
+            <div class="form-content">
+                <label for="email">E-mail</label>
+                <input type="email" id="email" placeholder="Digite seu e-mail">
+                <a>Aqui vai a mensagem de erro</a>
+            </div>
+
+            <div class="form-content">
+                <label for="senha">Senha</label>
+                <input type="password" id="senha" placeholder="Digite uma senha">
+                <a>Aqui vai a mensagem de erro</a>
+            </div>
+
+            <div class="form-content">
+                <label for="confirmacao-senha">Confirmação da senha</label>
+                <input type="password" id="confirmacao-senha" placeholder="Digite sua senha novamente">
+                <a>Aqui vai a mensagem de erro</a>
+            </div>
+
+            <button type="submit" id="botao">Cadastrar-se</button>
+        </form>
     </section>
-    
-    <script src="intercao.js"></script>
+
+    <script src="src/js/interacao.js"></script>
 </body>
 </html>
